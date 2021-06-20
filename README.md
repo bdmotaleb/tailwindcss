@@ -19,6 +19,8 @@ npm run build
 ```
 npm run lint
 ```
+### PostCSS 7 compatibility build
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Customizing your configuration
+npx tailwindcss init -p
